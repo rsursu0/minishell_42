@@ -6,7 +6,7 @@
 /*   By: wbae <wbae@student.42.fr>                  +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
 /*   Created: 2022/07/08 10:11:47 by wbae              #+#    #+#             */
-/*   Updated: 2022/12/07 12:01:16 by wbae             ###   ########.fr       */
+/*   Updated: 2023/03/06 15:27:28 by wbae             ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 
@@ -29,7 +29,7 @@ int		ft_isalpha(int c);
 int		ft_isascii(int c);
 int		ft_isdigit(int c);
 int		ft_isprint(int c);
-int		ft_isspace(char c);
+int		ft_isspace(char *s);
 void	*ft_memchr(const void *dest, int c, size_t len);
 int		ft_memcmp(const void *str1, const void *str2, size_t size);
 void	*ft_memcpy(void *dest, const void *src, size_t len);
